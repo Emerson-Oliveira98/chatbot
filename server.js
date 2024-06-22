@@ -28,6 +28,6 @@ app.post('/training-data', (req, res) => {
     });
 });
 
-app.listen(process.env || port, () => {
+app.listen(process.env || 3000, () => {
     console.log(`Servidor rodando em http://localhost:${port}`);
 });
