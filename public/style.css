@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: linear-gradient(45deg, red, yellow, blue);
+    color: white;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: white;
+    font-size: 3em; /* Aumenta o tamanho da letra */
+    font-weight: bold; /* Negrito */
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+button {
+    padding: 15px 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: yellow;
+    color: black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: yellow;
+}
+
+#chatbox {
+    border: 1px solid white;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 300px;
+    overflow-y: scroll;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#messages {
+    list-style: none;
+    padding: 0;
+}
+
+.message {
+    margin: 5px 0;
+}
+
+.message.user {
+    text-align: right;
+    color: yellow;
+}
+
+.message.bot {
+    text-align: left;
+    color: lightblue;
+}
+
+#chat-form input {
+    width: 80%;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+#chat-form button {
+    width: 18%;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 2%;
+}
